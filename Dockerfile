@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Nastav proměnné prostředí, aby Flask věděl, který soubor spustit
-ENV FLASK_APP=flask_for_startups.py  # Zde odkazuješ na hlavní soubor aplikace
+ENV FLASK_APP=flask_for_startups.py
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Spusť Flask aplikaci
